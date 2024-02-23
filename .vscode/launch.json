@@ -7,14 +7,14 @@
       "request": "launch",
       "runtimeExecutable": "yarn",
       "runtimeArgs": ["dev"],
-      "cwd": "${workspaceFolder}/react-app"
+      "cwd": "${workspaceFolder}/remote"
     },
     {
       "name": "Chrome",
       "request": "launch",
       "type": "chrome",
       "url": "http://localhost:5173",
-      "webRoot": "${workspaceFolder}/react-app",
+      "webRoot": "${workspaceFolder}/remote",
     }
   ]
 }
